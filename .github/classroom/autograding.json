@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Testing Processes with sample text files",
+      "setup": "make generate",
+      "run": "make test1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Testing Processes with randomly generated text files",
+      "setup": "make generate_with_random_seeds",
+      "run": "make test1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Testing Threads with sample text files",
+      "setup": "make generate",
+      "run": "make test2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Testing Threads with randomly generated text files",
+      "setup": "make generate_with_random_seeds",
+      "run": "make test2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
